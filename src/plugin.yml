@@ -1,0 +1,24 @@
+name: PocketFurnace
+version: 1.00
+main: me.bluemond.pocketfurnace.PocketFurnace
+softdepend: [N/A]
+authors: [Bluemond]
+api-version: 1.16
+commands:
+  pocketfurnace:
+    description: Opens player's pocket furnace.
+    usage: /pf [1-4]
+    aliases: [pf]
+permissions:
+  pocketfurnace.use.1:
+    description: Can use 1 pocket furnace
+    default: false
+  pocketfurnace.use.2:
+    description: Can use 2 pocket furnaces
+    default: false
+  pocketfurnace.use.3:
+    description: Can use 3 pocket furnaces
+    default: false
+  pocketfurnace.use.4:
+    description: Can use 4 pocket furnace
+    default: false
